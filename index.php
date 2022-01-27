@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED ^ E_WARNING);  
+
         include_once './mpdf/mpdf.php';
 
 		//https://mpdf.github.io/reference/mpdf-functions/construct.html
