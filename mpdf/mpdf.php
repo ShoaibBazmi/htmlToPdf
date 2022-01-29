@@ -1389,6 +1389,7 @@ function _getPageFormat($format) {
 			case 'A': {$format=array(314.65,504.57 );	 break;}		//	'A' format paperback size 111x178mm
 			case 'DEMY': {$format=array(382.68,612.28 );  break;}		//	'Demy' format paperback size 135x216mm
 			case 'ROYAL': {$format=array(433.70,663.30 );  break;}	//	'Royal' format paperback size 153x234mm
+			case 'COURSECOMPLETIONCERTIFICATE': {$format=array(466.95,338.89 );  break;}	//	'Royal' format paperback size 153x234mm
 			default: {$format = array(595.28,841.89); break;}
 		}
 	return $format;
